@@ -16,7 +16,7 @@ Create a new Kin.Zone  instance in five minutes using Docker
   ```sh
   cd /usr/local
   git clone https://github.com/mkmzone/kin.zone.docker.git
-  cd searxng-docker
+  cd kin.zone.docker
   ```
 - Edit the [.env](https://github.com/searxng/searxng-docker/blob/master/.env) file to set the hostname and an email
 - Generate the secret key `sed -i "s|ultrasecretkey|$(openssl rand -hex 32)|g" searxng/settings.yml`
