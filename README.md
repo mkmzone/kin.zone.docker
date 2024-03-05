@@ -1,4 +1,4 @@
-# searxng-docker
+# kin.zone.docker
 
 Create a new Kin.Zone  instance in five minutes using Docker
 
