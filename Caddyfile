@@ -2,7 +2,7 @@
   admin off
 }
 
-{$SEARXNG_HOSTNAME}, {$SEARXNG_WWW_HOSTNAME} {
+{$SEARXNG_HOSTNAME} {
   log {
         output discard
   }
