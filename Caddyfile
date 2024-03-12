@@ -2,7 +2,7 @@
   admin off
 }
 
-{$SEARXNG_HOSTNAME} {
+{$SEARXNG_HOSTNAME}, {$SEARXNG_WWW_HOSTNAME} {
   log {
         output discard
   }
@@ -96,8 +96,4 @@
         }
   }
 
-}
-
-{$SEARXNG_WWW_HOSTNAME} {
-  reverse_proxy https://kin.zone/
 }
